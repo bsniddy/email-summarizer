@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Editor/OS
+.DS_Store
+.idea/
+.vscode/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Logs & outputs
+logs/
+*.log
+*.md.html
+
+digest-*.md
+
+# Local config & secrets
+# Do NOT commit credentials
+.env
+*.env
+config.env
+/email_summarizer/config.env
+/Users/*/.email-summarizer/config.env
+
+# App state
+~/.email-summarizer/
+/.email-summarizer/
